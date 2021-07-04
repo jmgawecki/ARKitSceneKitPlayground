@@ -15,6 +15,7 @@
 		EF7BB6F0268F990B002BE629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7BB6EE268F990B002BE629 /* LaunchScreen.storyboard */; };
 		EF7BB6FA268F990C002BE629 /* ARKitSceneKitPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB6F9268F990C002BE629 /* ARKitSceneKitPlaygroundTests.swift */; };
 		EF7BB704268F990C002BE629 /* ARKitSceneKitPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB703268F990C002BE629 /* ARKitSceneKitPlaygroundUITests.swift */; };
+		EF7BB711268F9AF2002BE629 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7BB710268F9AF2002BE629 /* Plane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EF7BB6F9268F990C002BE629 /* ARKitSceneKitPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSceneKitPlaygroundTests.swift; sourceTree = "<group>"; };
 		EF7BB6FF268F990C002BE629 /* ARKitSceneKitPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitSceneKitPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7BB703268F990C002BE629 /* ARKitSceneKitPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSceneKitPlaygroundUITests.swift; sourceTree = "<group>"; };
+		EF7BB710268F9AF2002BE629 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				EF7BB6E9268F990B002BE629 /* Main.storyboard */,
 				EF7BB6EC268F990B002BE629 /* Assets.xcassets */,
 				EF7BB6EE268F990B002BE629 /* LaunchScreen.storyboard */,
+				EF7BB710268F9AF2002BE629 /* Plane.swift */,
 			);
 			path = ARKitSceneKitPlayground;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7BB6E8268F990B002BE629 /* ViewController.swift in Sources */,
+				EF7BB711268F9AF2002BE629 /* Plane.swift in Sources */,
 				EF7BB6E4268F990B002BE629 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +447,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
